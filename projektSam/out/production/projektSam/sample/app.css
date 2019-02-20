@@ -1,0 +1,24 @@
+@font-face{
+    src: url("perfo.ttf");
+}
+
+#speedLabel, #engineLabel, #gearLabel {
+    -fx-font-family: "Perfo";
+    -fx-font-size: 26px;
+    -fx-text-fill: yellow;
+    -fx-text-alignment: center;
+}
+
+#k, #o, #l {
+    -fx-fill: #41464f;
+}
+
+#z, #x, #c, #km, #rp {
+    -fx-font-family: "Perfo";
+    -fx-font-size: 14px;
+    -fx-text-fill: yellow;
+}
+
+#pane {
+    -fx-background-color: #566070;
+}

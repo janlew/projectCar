@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="220.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Circle fx:id="k" fill="DODGERBLUE" layoutX="126.0" layoutY="100.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="o" fill="DODGERBLUE" layoutX="326.0" layoutY="100.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l" fill="DODGERBLUE" layoutX="526.0" layoutY="100.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+
+      <Label fx:id="speedLabel" alignment="CENTER" layoutX="81.0" layoutY="70.0" prefHeight="40.0" prefWidth="91.0" text="0" textAlignment="CENTER" visible="false">
+         </Label>
+      <Label fx:id="gearLabel" alignment="CENTER" layoutX="281.0" layoutY="80.0" prefHeight="40.0" prefWidth="91.0" text="N" textAlignment="CENTER" visible="false">
+         </Label>
+      <Label fx:id="engineLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="484.0" layoutY="70.0" prefHeight="40.0" prefWidth="84.0" text="0" textAlignment="CENTER" visible="false">
+         </Label>
+      <Label layoutX="210.0" layoutY="190.0" prefHeight="20.0" prefWidth="440.0" textFill="#90a1a5" text="Sterowanie: włącz/wyłącz silnik - P, biegi - 0-6, przyśpieszanie - W, hamowanie - S" textAlignment="CENTER" />
+      <Label fx:id="z" layoutX="106.0" layoutY="30.0" text="Speed" />
+      <Label layoutX="312.0" layoutY="30.0" text="Gear" fx:id="x" />
+      <Label fx:id="c" layoutX="490.0" layoutY="30.0" text="Engine Speed" />
+      <Circle fx:id="power" fill="#ff0c0c" layoutX="30.0" layoutY="190.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="pow" layoutX="54.0" layoutY="182.0" text="Engine off" textFill="black"/>
+      <Label fx:id="km" layoutX="108.0" layoutY="102.0" text="km/h" visible="false" />
+      <Label fx:id="rp" layoutX="512.0" layoutY="102.0" text="RPM" visible="false"/>
+   </children>
+</AnchorPane>
